@@ -4,11 +4,12 @@
 - Now add the **MobFixHumanNodesRemoved.ipynb** file to **your** trace
 - Make sure MobVis can be used by also adding **build** and **mobvis** to the trace's folder
 - Your folder hierarchy should look like this: 
-	> ./
+```` 
+./
 build/
 mobvis/
 traces/
-├─ **YOUR_TRACE**/
+├─ YOUR_TRACE/
 │  ├─ build/
 │  ├─ mobvis/
 │  ├─ contacts_trace.csv
@@ -17,6 +18,7 @@ traces/
 │  ├─ pos_trace.csv
 │  ├─ sim-config.cfg
 │  ├─ MobFixHumanNodesRemoved.ipynb
+````
 
 
 # How to clean the data from the SIoT mobility model
